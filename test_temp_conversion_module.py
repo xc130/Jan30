@@ -24,9 +24,9 @@ def test_3():
 
 
 def test_fever_detection():
-    temp_list = [93.0, 98.0, 100.0, 104.0, 101.0]
+    temp_list = [93.0, 98.0, 100.0, 105.0, 101.0]
     max_temp, is_fever = fever_detection(temp_list)
-    max_expected = 104.0
+    max_expected = 105.0
     expected_is_fever = True
 
     assert max_temp == max_expected
